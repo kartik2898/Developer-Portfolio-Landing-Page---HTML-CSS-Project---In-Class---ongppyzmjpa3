@@ -77,15 +77,16 @@ section{
 .bottom-section{
     display: flex;
     justify-content: space-evenly;
+    height: 100%;
     margin: 5px;
 
 }
 .contact-me{
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     background-color: green;
 }
 .About-me{
-    font-family: inherit;
+    font-family: 'Montserrat', sans-serif;
     background-color: brown;
 }
 .contact-me,.About-me{
