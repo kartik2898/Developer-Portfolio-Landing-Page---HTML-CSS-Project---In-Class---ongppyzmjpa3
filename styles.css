@@ -2,38 +2,41 @@
 *{
    margin: 0;  
 }
-section{
+/* section{
     display: block;
-}
+} */
 .hero-section{
-    background-image: url(images1.jpg);
-    width: 100vw;
+    background-image: url(img-dev.png);
+    /* width: 100vw; */
     height: 100vh;
     
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size:cover;
+    display: flex;
+    justify-content: center;
 }
 .hero-heading{
-    /* justify-content: center; */
-    margin: 0 auto;
+   
+    /* margin: 0 auto; */
     font-family:'Lato';
     color: black;
     font-weight: 400;
     /* position: relative; */
     /* top: 30px; */
-    max-width: 619px;
+    /* max-width: 619px; */
     padding-top: 50px;
-    padding-top: 60px;
-    margin-left: 500px;
+   
+    /* margin-left: 500px; */
 }
 .hero-heading h1{
     text-transform: uppercase;
 }
-.hero-heading h1, .hero-heading h2{
+
+/* .hero-heading h1, .hero-heading h2{
     align-items: center;
-}
+}  */
 .hero-heading h2 span{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .black-box-section{
     background-color: black;
@@ -42,13 +45,13 @@ section{
     /* border-bottom: 2px solid white; */
 }
 .black-box-text h3{
-    font-family: inherit;
+    font-family: 'Lato';
     font-size: 80px;
     font-weight: 400;
     text-align: center;
 }
 .black-box-text span{
-    font-family: inherit;
+    font-family: 'Lato';
     font-size: 96px;
 }
 
@@ -106,10 +109,13 @@ section{
     .hero-section{
         min-height: 50vh;
     }
-    .black-box-section{
+    .black-box-text h3,.black-box-text span{
         font-size: 24px;
     }
     .bottom-section{
         flex-direction:column;
+    }
+    .card{
+        height: auto;
     }
 }
